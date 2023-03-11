@@ -31,7 +31,7 @@ header {
     font-weight: 900;
     line-height: 44px;
     color: #28283D;
-    
+    width: 327px;
 }
 .main_1 p {
     font-size: 16px;
@@ -79,7 +79,7 @@ header {
     border-radius: 29px;
     
 }
-.button_2 h1 {
+.button_2 h6 {
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 900;
@@ -142,7 +142,6 @@ header {
     letter-spacing: 4px;
     line-height: 26px;
     margin-bottom: 24px;
-    width: 327px;
     
 }
 .main_4 h2 {
@@ -150,6 +149,7 @@ header {
     font-weight: 900;
     line-height: 36px;
     margin-bottom: 32px;
+    width: 327px;
 }
 .main_4 p {
     font-size: 16px;
@@ -252,17 +252,81 @@ footer p {
 
 /* start tablet size *//* start tablet size *//* start tablet size */
 @media (min-width: 768px) {
+    header {
+        padding-bottom: 66px;
+    }
+    .img_hero {
+        height: 303px;
+        margin-bottom: 72px;
+    }
+    .main_1 {
+        padding-bottom: 80px;
+    }
+    .main_1 h1 {
+        font-size: 48px;
+        line-height: 48px;
+        
+    }
+    .main_1 p {
+        width: 457px;
+    }
+    .buttons {
+        flex-direction: row;
+    }
+    .main_3 {
+        gap: 11px;
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    .photo {
+        height: 156px;
+        width: 164px;
 
-
-
-
-
-
-
-
-
-
-
-
-    
+    }
+    .main_4 {
+        margin-bottom: 80px;
+    }
+    .main_4 h2 {
+        font-size: 40px;
+        line-height: 44px;
+        width: 445px;
+    }
+    .main_4 p {
+        width: 573px;
+    }
+    footer {
+        background-image: url(./assets/tablet/image-footer.jpg);
+    }
+    footer h1 {
+        font-size: 40px;
+        width: 457px;
+        line-height: 44px;
+        margin-bottom: 32px;
+        margin-top: 92px; 
+    }
+    footer p {
+        width: 573px;
+    }
 }
+    /* end tablet size *//* end tablet size *//* end tablet size */
+
+
+
+
+/* start desktop size *//* start desktop size *//* start desktop size */
+@media (min-width: 1440px) {
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -339,6 +339,7 @@ footer p {
         display: block;
         overflow: hidden;
         left: -35px;
+        
     }
     .right {
         position: absolute;
@@ -348,6 +349,7 @@ footer p {
     }
     .main_1 {
         flex-direction: row;
+        position: relative;
     }
     .main_1 h1 {
         font-size: 64px;
